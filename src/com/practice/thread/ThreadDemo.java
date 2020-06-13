@@ -1,6 +1,6 @@
 package com.practice.thread;
 
-/*
+/**
 * A thread is a thread of execution in a program.
 * The Java Virtual Machine allows an application to have multiple threads of execution running concurrently.
 * There are two ways to create a new thread of execution. One is to declare a class to be a subclass of Thread.

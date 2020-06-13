@@ -1,6 +1,6 @@
 package com.practice.thread;
 
-/*
+/**
 * volatile variable are always visible to other threads.
 *
 * atomic variable access is more efficient than accessing these variables through synchronized code,

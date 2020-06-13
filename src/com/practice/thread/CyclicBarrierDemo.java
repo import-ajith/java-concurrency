@@ -2,7 +2,7 @@ package com.practice.thread;
 
 import java.util.concurrent.*;
 
-/*
+/**
 * A synchronization aid that allows a set of threads to all wait for each other to reach a common barrier point
 * The barrier is called cyclic because it can be re-used after the waiting threads are released.
 * used to perform particular task repeatedly

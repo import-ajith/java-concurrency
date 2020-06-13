@@ -6,7 +6,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.IntStream;
 
-/*
+/**
 * semaphore maintains a set of permits. Each acquire() blocks if necessary until a permit is available,
 * and then takes it. Each release() adds a permit, potentially releasing a blocking acquirer. However,
 * no actual permit objects are used; the Semaphore just keeps a count of the number available and acts accordingly.

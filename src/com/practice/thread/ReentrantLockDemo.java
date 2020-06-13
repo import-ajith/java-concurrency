@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-/*
+/**
 * A reentrant mutual exclusion Lock with the same basic behavior and semantics as the implicit monitor
 * lock accessed using synchronized methods and statements, but with extended capabilities.*/
 public class ReentrantLockDemo {

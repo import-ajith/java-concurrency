@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Phaser;
 import java.util.stream.IntStream;
 
-/*
+/**
 * A reusable synchronization barrier,
 * similar in functionality to CyclicBarrier and CountDownLatch but supporting more flexible usage.
 * */

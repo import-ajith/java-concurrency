@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.IntStream;
 
-/*
+/**
  * A synchronization aid that allows one or more threads to wait until a set of operations
  * being performed in other threads completes.
  * */
