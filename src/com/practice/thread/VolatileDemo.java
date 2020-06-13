@@ -1,6 +1,10 @@
 package com.practice.thread;
 
-
+/*
+* volatile variable are always visible to other threads.
+*
+* atomic variable access is more efficient than accessing these variables through synchronized code,
+* but requires more care by the programmer to avoid memory consistency errors.*/
 public class VolatileDemo {
     private final static int noOfThreads =5;
     public static void main(String[] args) throws InterruptedException {

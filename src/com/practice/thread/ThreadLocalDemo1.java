@@ -7,6 +7,12 @@ import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/*
+* This class provides thread-local variables.
+*  These variables differ from their normal counterparts in that each thread that accesses one
+* (via its get or set method) has its own, independently initialized copy of the variable.
+* ThreadLocal instances are typically private static fields in classes that wish to associate state with a thread
+* (e.g., a user ID or Transaction ID).*/
 public class ThreadLocalDemo1 {
 
     private static Map data =new HashMap();
@@ -36,7 +42,6 @@ public class ThreadLocalDemo1 {
       }
 
     public static void main(String[] args) {
-
         for (int i=100;i<111;i++){
             int d=i;
             threadPool.submit(()->{
