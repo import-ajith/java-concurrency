@@ -9,6 +9,7 @@ import java.util.stream.IntStream;
 /**
 * A reusable synchronization barrier,
 * similar in functionality to CyclicBarrier and CountDownLatch but supporting more flexible usage.
+ * @author Ajithlal
 * */
 public class PhaserDemo {
 

@@ -10,7 +10,9 @@ import java.util.stream.IntStream;
  *
  * In this way, the main thread does not block or wait for the completion of the task.
  * Other tasks execute in parallel.Parallelism improves the performance of the program.
+ *  @author Ajithlal
  * */
+
 public class CompletableFutureDemo {
 
     public static void main(String[] args) {

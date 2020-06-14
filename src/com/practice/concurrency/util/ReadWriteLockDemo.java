@@ -10,6 +10,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 * This lock allows both readers and writers to reacquire read or write locks in the style of a ReentrantLock.
 * Allow write owner thread to also acquire read lock
 * Good for frequent reads and infrequent writes
+ * @author Ajithlal
 * */
 public class ReadWriteLockDemo {
 

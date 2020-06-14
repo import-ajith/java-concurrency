@@ -1,5 +1,8 @@
 package com.practice.concurrency.design;
 
+/**
+ *  @author Ajithlal
+ *  */
 public class DoubleCheckedLocking {
 }
 

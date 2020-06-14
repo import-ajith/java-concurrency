@@ -10,6 +10,10 @@ import java.util.concurrent.*;
  * The Scatter-Gather routes a request message to the a number of recipients.
  * It then uses an Aggregator to collect the responses and distill them into a single response message.
  * */
+
+/**
+ *  @author Ajithlal
+ *  */
 public class ScatterGather {
 
     public static void main(String[] args) throws InterruptedException {

@@ -7,7 +7,9 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
 * A reentrant mutual exclusion Lock with the same basic behavior and semantics as the implicit monitor
-* lock accessed using synchronized methods and statements, but with extended capabilities.*/
+* lock accessed using synchronized methods and statements, but with extended capabilities.
+ * @author Ajithlal
+ * */
 public class ReentrantLockDemo {
 
     private static ReentrantLock lock = new ReentrantLock();

@@ -8,6 +8,7 @@ package com.practice.concurrency.util;
 *
 * That class then implements the run method.
 *  An instance of the class can then be allocated, passed as an argument when creating Thread, and started
+ *  @author Ajithlal
 * */
 public class ThreadDemo {
 

@@ -2,6 +2,7 @@ package com.practice.concurrency.design;
 
 /**
  * Implement Singleton using Double check locking
+ * @author Ajithlal
  * */
 public class Singleton {
 }

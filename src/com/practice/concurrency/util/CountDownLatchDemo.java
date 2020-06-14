@@ -8,6 +8,7 @@ import java.util.stream.IntStream;
 /**
  * A synchronization aid that allows one or more threads to wait until a set of operations
  * being performed in other threads completes.
+ * @author Ajithlal
  * */
 public class CountDownLatchDemo {
     public static void main(String[] args) throws InterruptedException {

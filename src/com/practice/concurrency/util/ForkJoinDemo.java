@@ -2,7 +2,7 @@ package com.practice.concurrency.util;
 
 import java.util.concurrent.RecursiveTask;
 
-/*
+/**
 * ForkJoinPool differs from other kinds of ExecutorService mainly by virtue of employing work-stealing:
 * This enables efficient processing when most tasks spawn other subtasks
 * ForkJoinPool may be constructed with a given target parallelism level; by default,
@@ -14,6 +14,7 @@ import java.util.concurrent.RecursiveTask;
 * Do not use shared variable across task
 * Do not perform Blocking IO operations
 * Are pure  and isolated functions
+* @author Ajithlal
  * */
 public class ForkJoinDemo {
     public static void main(String[] args) {

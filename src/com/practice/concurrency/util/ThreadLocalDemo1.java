@@ -12,6 +12,7 @@ import java.util.concurrent.Executors;
 *  These variables differ from their normal counterparts in that each thread that accesses one
 * (via its get or set method) has its own, independently initialized copy of the variable.
 * ThreadLocal instances are typically private static fields in classes that wish to associate state with a thread
+ * @author Ajithlal
 * (e.g., a user ID or Transaction ID).*/
 public class ThreadLocalDemo1 {
 

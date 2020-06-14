@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ *  * @author Ajithlal*/
 public class ThreadLocalDemo2 {
 
     private static ExecutorService threadPool1=Executors.newFixedThreadPool(2);
