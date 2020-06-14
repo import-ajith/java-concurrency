@@ -1,4 +1,4 @@
-package com.practice.thread;
+package com.practice.concurrency.util;
 
 import java.util.concurrent.*;
 import java.util.stream.IntStream;

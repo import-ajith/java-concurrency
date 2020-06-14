@@ -1,4 +1,4 @@
-package com.practice.thread;
+package com.practice.concurrency.util;
 
 /**
 * A thread is a thread of execution in a program.

@@ -1,9 +1,7 @@
-package com.practice.thread;
+package com.practice.concurrency.util;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

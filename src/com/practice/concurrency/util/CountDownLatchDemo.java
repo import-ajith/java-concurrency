@@ -1,4 +1,4 @@
-package com.practice.thread;
+package com.practice.concurrency.util;
 
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;

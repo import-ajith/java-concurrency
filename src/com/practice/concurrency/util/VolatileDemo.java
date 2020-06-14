@@ -1,4 +1,4 @@
-package com.practice.thread;
+package com.practice.concurrency.util;
 
 /**
 * volatile variable are always visible to other threads.
